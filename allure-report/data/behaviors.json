@@ -1,0 +1,85 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Check title",
+    "children" : [ {
+      "name" : "should have a title of \"5 Weather Forecast\"",
+      "uid" : "ce3903834294ca58",
+      "parentUid" : "93727ee21a03f2866137d498a4f30fd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550097038772,
+        "stop" : 1550097042800,
+        "duration" : 4028
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "93727ee21a03f2866137d498a4f30fd9"
+  }, {
+    "name" : "Check default city",
+    "children" : [ {
+      "name" : "should have a \"Glasgow\" as the default city",
+      "uid" : "2e10ca61b79afa47",
+      "parentUid" : "217179302f63d9f647c91c140396b3dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550097042802,
+        "stop" : 1550097045419,
+        "duration" : 2617
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "217179302f63d9f647c91c140396b3dd"
+  }, {
+    "name" : "Check error message",
+    "children" : [ {
+      "name" : "should have a give an error if the city is not found",
+      "uid" : "9c99020fad9fee37",
+      "parentUid" : "ed5eb21b9b2e393fdb8d111f50c05130",
+      "status" : "broken",
+      "time" : {
+        "start" : 1550097045428,
+        "stop" : 1550097050856,
+        "duration" : 5428
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "ed5eb21b9b2e393fdb8d111f50c05130"
+  }, {
+    "name" : "Return 5 day results",
+    "children" : [ {
+      "name" : "should return 5 results for \"Glasgow\"",
+      "uid" : "4d178f25c67b6233",
+      "parentUid" : "aa4bd0716e0c904b8e94658b38a07820",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550097055632,
+        "stop" : 1550097060793,
+        "duration" : 5161
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "aa4bd0716e0c904b8e94658b38a07820"
+  }, {
+    "name" : "3 hour forecast",
+    "children" : [ {
+      "name" : "should have show a 3 hour forecast",
+      "uid" : "39fd00c4ebf26dc",
+      "parentUid" : "e445e2522f80436a0d1fe820f96a8b9c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1550097060800,
+        "stop" : 1550097067975,
+        "duration" : 7175
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "e445e2522f80436a0d1fe820f96a8b9c"
+  } ]
+}

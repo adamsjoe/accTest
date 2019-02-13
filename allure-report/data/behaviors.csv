@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Check error message","","0","1","0","0","0"
+"","3 hour forecast","","1","0","0","0","0"
+"","Return 5 day results","","0","0","1","0","0"
+"","Check title","","0","0","1","0","0"
+"","Check default city","","0","0","1","0","0"

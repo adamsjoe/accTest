@@ -1,0 +1,51 @@
+[ {
+  "uid" : "9c99020fad9fee37",
+  "name" : "should have a give an error if the city is not found",
+  "time" : {
+    "start" : 1550097045428,
+    "stop" : 1550097050856,
+    "duration" : 5428
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "39fd00c4ebf26dc",
+  "name" : "should have show a 3 hour forecast",
+  "time" : {
+    "start" : 1550097060800,
+    "stop" : 1550097067975,
+    "duration" : 7175
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d178f25c67b6233",
+  "name" : "should return 5 results for \"Glasgow\"",
+  "time" : {
+    "start" : 1550097055632,
+    "stop" : 1550097060793,
+    "duration" : 5161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce3903834294ca58",
+  "name" : "should have a title of \"5 Weather Forecast\"",
+  "time" : {
+    "start" : 1550097038772,
+    "stop" : 1550097042800,
+    "duration" : 4028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e10ca61b79afa47",
+  "name" : "should have a \"Glasgow\" as the default city",
+  "time" : {
+    "start" : 1550097042802,
+    "stop" : 1550097045419,
+    "duration" : 2617
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

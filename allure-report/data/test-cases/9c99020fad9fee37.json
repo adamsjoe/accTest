@@ -1,0 +1,126 @@
+{
+  "uid" : "9c99020fad9fee37",
+  "name" : "should have a give an error if the city is not found",
+  "fullName" : "Sanity Checks.should have a give an error if the city is not found",
+  "historyId" : "ea4e8b216fef8d397c1bd50eb434143",
+  "time" : {
+    "start" : 1550097045428,
+    "stop" : 1550097050856,
+    "duration" : 5428
+  },
+  "description" : "Check an error message is displayed if the city used is not listed",
+  "descriptionHtml" : "<p>Check an error message is displayed if the city used is not listed</p>\n",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"[data-test=\"error\"]\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"[data-test=\"error\"]\").\n                    at getValue(\"[data-test=\"error\"]\") -     at C:\\code\\acceptance-testing\\node_modules\\wdio-sync\\build\\at elements(\"[data-test=\"error\"]\") - C:\\code\\acceptance-testing\\node_modules\\webdriverio\\build\\lib\\commands\\getValue.js:18:17",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"[data-test=\"error\"]\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"[data-test=\"error\"]\").\n                    at getValue(\"[data-test=\"error\"]\") -     at C:\\code\\acceptance-testing\\node_modules\\wdio-sync\\build\\at elements(\"[data-test=\"error\"]\") - C:\\code\\acceptance-testing\\node_modules\\webdriverio\\build\\lib\\commands\\getValue.js:18:17",
+    "steps" : [ {
+      "name" : "Enter \"Glasgowland\" into the field identified with selector \"name\" and referenced as \"city\"",
+      "time" : {
+        "start" : 1550097047901,
+        "stop" : 1550097047901,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Pausing things for 1 seconds.",
+      "time" : {
+        "start" : 1550097049095,
+        "stop" : 1550097049095,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"error\"]\" is \"Error retrieving the forecast\"",
+      "time" : {
+        "start" : 1550097050098,
+        "stop" : 1550097050098,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check error message"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "medium"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sanity Checks"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Checks"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a give an error if the city is not found"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Checks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9c99020fad9fee37.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,6 @@
+node_modules/
+build/
+allure-results/
+errorShots/
+*.log
+.DS_Store

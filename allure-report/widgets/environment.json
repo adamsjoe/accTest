@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":2,\"browserName\":\"chrome\",\"acceptInsecureCerts\":true}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"C:\\\\code\\\\acceptance-testing\\\\test\\\\accTest\\\\glasgowTests.js\"]" ],
+  "name" : "spec files"
+} ]

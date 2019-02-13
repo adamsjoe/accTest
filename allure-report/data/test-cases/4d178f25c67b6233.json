@@ -1,0 +1,298 @@
+{
+  "uid" : "4d178f25c67b6233",
+  "name" : "should return 5 results for \"Glasgow\"",
+  "fullName" : "Glasgow City.should return 5 results for \"Glasgow\"",
+  "historyId" : "a4a7203c4c4ce1b919fdac39c16bbf5d",
+  "time" : {
+    "start" : 1550097055632,
+    "stop" : 1550097060793,
+    "duration" : 5161
+  },
+  "description" : "Return 5 day results for \"Glasgow\"",
+  "descriptionHtml" : "<p>Return 5 day results for &quot;Glasgow&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter \"Glasgow\" into the field identified with selector \"name\" and referenced as \"city\"",
+      "time" : {
+        "start" : 1550097058544,
+        "stop" : 1550097058544,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Pausing things for 1 seconds.",
+      "time" : {
+        "start" : 1550097059470,
+        "stop" : 1550097059470,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the value of \"5\" equals \"5\"",
+      "time" : {
+        "start" : 1550097060475,
+        "stop" : 1550097060475,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"day-1\"]\" is \"Tue\"",
+      "time" : {
+        "start" : 1550097060476,
+        "stop" : 1550097060476,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"day-2\"]\" is \"Wed\"",
+      "time" : {
+        "start" : 1550097060514,
+        "stop" : 1550097060514,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"day-3\"]\" is \"Thu\"",
+      "time" : {
+        "start" : 1550097060554,
+        "stop" : 1550097060554,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"day-4\"]\" is \"Fri\"",
+      "time" : {
+        "start" : 1550097060593,
+        "stop" : 1550097060593,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"day-5\"]\" is \"Sat\"",
+      "time" : {
+        "start" : 1550097060630,
+        "stop" : 1550097060630,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"day-1\"]\" is \"undefined\"",
+      "time" : {
+        "start" : 1550097060667,
+        "stop" : 1550097060667,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"day-2\"]\" is \"undefined\"",
+      "time" : {
+        "start" : 1550097060694,
+        "stop" : 1550097060694,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"day-3\"]\" is \"undefined\"",
+      "time" : {
+        "start" : 1550097060718,
+        "stop" : 1550097060718,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"day-4\"]\" is \"undefined\"",
+      "time" : {
+        "start" : 1550097060742,
+        "stop" : 1550097060742,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the text at \"[data-test=\"day-5\"]\" is \"undefined\"",
+      "time" : {
+        "start" : 1550097060767,
+        "stop" : 1550097060767,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c3558b916824be62",
+      "name" : "Values Used in this Test",
+      "source" : "c3558b916824be62.txt",
+      "type" : "text/plain",
+      "size" : 38
+    }, {
+      "uid" : "e26894855d44a60",
+      "name" : "Values Used in this Test",
+      "source" : "e26894855d44a60.txt",
+      "type" : "text/plain",
+      "size" : 38
+    }, {
+      "uid" : "ec5165f9a4977ae8",
+      "name" : "Values Used in this Test",
+      "source" : "ec5165f9a4977ae8.txt",
+      "type" : "text/plain",
+      "size" : 38
+    }, {
+      "uid" : "9befa4d304f827d3",
+      "name" : "Values Used in this Test",
+      "source" : "9befa4d304f827d3.txt",
+      "type" : "text/plain",
+      "size" : 38
+    }, {
+      "uid" : "4eff18d84800b4fd",
+      "name" : "Values Used in this Test",
+      "source" : "4eff18d84800b4fd.txt",
+      "type" : "text/plain",
+      "size" : 38
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Return 5 day results"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "medium"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Glasgow City"
+  }, {
+    "name" : "testClass",
+    "value" : "Glasgow City"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 5 results for \"Glasgow\""
+  }, {
+    "name" : "package",
+    "value" : "Glasgow City"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d178f25c67b6233.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,94 @@
+{
+  "uid" : "ce3903834294ca58",
+  "name" : "should have a title of \"5 Weather Forecast\"",
+  "fullName" : "Sanity Checks.should have a title of \"5 Weather Forecast\"",
+  "historyId" : "ae54f6a88916487c7a6fff787cb0e313",
+  "time" : {
+    "start" : 1550097038772,
+    "stop" : 1550097042800,
+    "duration" : 4028
+  },
+  "description" : "Check the title is \"5 Weather Forecast\"",
+  "descriptionHtml" : "<p>Check the title is &quot;5 Weather Forecast&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verifying the page title is \"5 Weather Forecast\"",
+      "time" : {
+        "start" : 1550097041932,
+        "stop" : 1550097041932,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "90a1a5a253b36e53",
+      "name" : "SCREENSHOT",
+      "source" : "90a1a5a253b36e53.png",
+      "type" : "image/png",
+      "size" : 92385
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check title"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "medium"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sanity Checks"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Checks"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a title of \"5 Weather Forecast\""
+  }, {
+    "name" : "package",
+    "value" : "Sanity Checks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce3903834294ca58.json",
+  "parameterValues" : [ "chrome" ]
+}

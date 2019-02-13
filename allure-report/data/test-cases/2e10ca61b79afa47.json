@@ -1,0 +1,88 @@
+{
+  "uid" : "2e10ca61b79afa47",
+  "name" : "should have a \"Glasgow\" as the default city",
+  "fullName" : "Sanity Checks.should have a \"Glasgow\" as the default city",
+  "historyId" : "dee020151bfdb8229cf00964bf60ef97",
+  "time" : {
+    "start" : 1550097042802,
+    "stop" : 1550097045419,
+    "duration" : 2617
+  },
+  "description" : "Check the default city is \"Glasgow\"",
+  "descriptionHtml" : "<p>Check the default city is &quot;Glasgow&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verifying the text at \"city\" is \"Glasgow\"",
+      "time" : {
+        "start" : 1550097045389,
+        "stop" : 1550097045389,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check default city"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "medium"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sanity Checks"
+  }, {
+    "name" : "testClass",
+    "value" : "Sanity Checks"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have a \"Glasgow\" as the default city"
+  }, {
+    "name" : "package",
+    "value" : "Sanity Checks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e10ca61b79afa47.json",
+  "parameterValues" : [ "chrome" ]
+}

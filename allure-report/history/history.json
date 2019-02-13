@@ -1,0 +1,99 @@
+{
+  "dee020151bfdb8229cf00964bf60ef97" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e10ca61b79afa47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550097042802,
+        "stop" : 1550097045419,
+        "duration" : 2617
+      }
+    } ]
+  },
+  "357ad8c1db31eb71cef450cb8dd3da4e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "39fd00c4ebf26dc",
+      "status" : "failed",
+      "statusDetails" : "Expected \"0mm\" but got \"1mm\".  The test has failed.",
+      "time" : {
+        "start" : 1550097060800,
+        "stop" : 1550097067975,
+        "duration" : 7175
+      }
+    } ]
+  },
+  "a4a7203c4c4ce1b919fdac39c16bbf5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d178f25c67b6233",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550097055632,
+        "stop" : 1550097060793,
+        "duration" : 5161
+      }
+    } ]
+  },
+  "ae54f6a88916487c7a6fff787cb0e313" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce3903834294ca58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550097038772,
+        "stop" : 1550097042800,
+        "duration" : 4028
+      }
+    } ]
+  },
+  "ea4e8b216fef8d397c1bd50eb434143" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c99020fad9fee37",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"[data-test=\"error\"]\").",
+      "time" : {
+        "start" : 1550097045428,
+        "stop" : 1550097050856,
+        "duration" : 5428
+      }
+    } ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An element could not be located on the page using the given search parameters (\"[data-test=\"error\"]\").",
+      "children" : [ {
+        "name" : "should have a give an error if the city is not found",
+        "uid" : "9c99020fad9fee37",
+        "parentUid" : "649d8392a79463d1a8e403a12dccb13d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1550097045428,
+          "stop" : 1550097050856,
+          "duration" : 5428
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "649d8392a79463d1a8e403a12dccb13d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expected \"0mm\" but got \"1mm\".  The test has failed.",
+      "children" : [ {
+        "name" : "should have show a 3 hour forecast",
+        "uid" : "39fd00c4ebf26dc",
+        "parentUid" : "443ac5dd0959630781cd5b8ca4358b36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1550097060800,
+          "stop" : 1550097067975,
+          "duration" : 7175
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "443ac5dd0959630781cd5b8ca4358b36"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

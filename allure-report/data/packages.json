@@ -1,0 +1,73 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Sanity Checks",
+    "children" : [ {
+      "name" : "should have a title of \"5 Weather Forecast\"",
+      "uid" : "ce3903834294ca58",
+      "parentUid" : "6158ad3d37398acd3062bb7e44bd2017",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550097038772,
+        "stop" : 1550097042800,
+        "duration" : 4028
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have a \"Glasgow\" as the default city",
+      "uid" : "2e10ca61b79afa47",
+      "parentUid" : "6158ad3d37398acd3062bb7e44bd2017",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550097042802,
+        "stop" : 1550097045419,
+        "duration" : 2617
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have a give an error if the city is not found",
+      "uid" : "9c99020fad9fee37",
+      "parentUid" : "6158ad3d37398acd3062bb7e44bd2017",
+      "status" : "broken",
+      "time" : {
+        "start" : 1550097045428,
+        "stop" : 1550097050856,
+        "duration" : 5428
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "6158ad3d37398acd3062bb7e44bd2017"
+  }, {
+    "name" : "Glasgow City",
+    "children" : [ {
+      "name" : "should return 5 results for \"Glasgow\"",
+      "uid" : "4d178f25c67b6233",
+      "parentUid" : "f17b01c24536ea5af2070d09b85480a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550097055632,
+        "stop" : 1550097060793,
+        "duration" : 5161
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have show a 3 hour forecast",
+      "uid" : "39fd00c4ebf26dc",
+      "parentUid" : "f17b01c24536ea5af2070d09b85480a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1550097060800,
+        "stop" : 1550097067975,
+        "duration" : 7175
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "f17b01c24536ea5af2070d09b85480a1"
+  } ]
+}
