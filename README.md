@@ -1,50 +1,54 @@
-This application displays the 5 day weather forecast for a given location.
+### Update
 
-### Features
+* Using webdriverio 
+* Using allure as a reporting tool
 
-* Enter city name, get 5 day weather forecast
-* Select day, get 3 hourly forecast
-* Select day again, hide 3 hourly forecast
-* Daily forecast should summarise the 3 hour data:
-  * Most dominant (or current) condition
-  * Most dominant (or current) wind speed and direction
-  * Aggregate rainfall
-  * Minimum and maximum temperatures
-* All values should be rounded down
+Chose webdriverio as (with Zalenium - not included here) the tests can be run on a dockerised selenium grid.  Very quickly.
 
-We would like the application to be tested against the requirements above. Please rewrite the requirements into an appropriate format, e.g. BDD story files, adding any requirements that you think appropriate, such as edge cases or accessibility improvements.
+Included a couple of extra tests, checking Glasgow was the default city and checking that you get an error if there is no entry (the span isn't working so it is marked as a "broken" test)
 
-Please write a set of automated acceptance tests against those requirements using any language and / or test framework of your choice.
+The plan was to have the test run and to select a different day and hour each time through, rather than doing any hardcoding.  However, ran into some issues and out of time with getting the time working.
 
-The application is running in "test" mode, using a set of test data, matching that which comes from the public API at OpenWeatherMap (http://openweathermap.org/forecast5). There is test data for a number of locations, found in the folder ```src/data```.
+Basic run was parse the JSON, get the number of list elements, get a random number, pull out rain, temp, pressure and time details.
+From the time, split into date and into time.  From the date, select the day only.  The day is stored as part of the span, so we can click on that and then a list of times available.  We can then use the time component of the date concat the hour and min (with the hour having an extra +1 hour added to compensate for timezone) and then using the span, get the data-test attribute.  This could then use this to work out the other data-test elements.  Verification would then be easy.  Ran into issues with the time span element not being recognised.  That is included for reference/
 
-You should find that every important part of the HTML produced has been marked with ```data-test``` attributes.
+### What could be improved?
 
-### What we are looking for
+Finish the test - it's not there yet.
+Replace the pauses with waitFors (or create the wait fors)
+Convert to a more cucumber esque format.
+Have the JSON reader as a function, even to the point of having all the cities as an array and one test going through all the cities.
 
-This exercise is to examine your technical knowledge, and testing skill; there are no tricks or hidden agendas. We are looking for a demonstration of your experience and skill using current testing technologies and methodologies.
+### Failing test
 
-Make sure that your code is clear, demonstrates good practices, and that you include a readme file explaining how to build and run your solution - please don't spend more than 2 to 4 hours on this.
+The Glasgow JSON has rain at 0.005, rounding down this give 0 - but the screen shows 1mm of rain, so this is picked up.
 
-Bear in mind that your solution will form the basis for a follow-up conversation.
+### Report
 
-### Checklist
+There is a report generated so far in the allure-report directory.  I like the use of allure, it let's tests be assigned a severity, which show up on the graph - which is good for management if they ask.
 
-Please ensure you have submitted the following:
+To generate another report (after a test has run)
 
-* A pubic repository (e.g. GitHub, BitBucket) containing the requirements and automated tests
-* A readme explaining
-  * How to build and execute your solution
-  * Details on anything further that you would like to achieve given more time, including any trade-offs that you may have made
+    $ node_modules\.bin\allure generate allure-results allure-report
 
-Good luck and thank you for your time - we look forward to seeing your creation.
+(append .cmd after allure if using windows)
 
 ### Running the app locally
 
-You'll need node and npm installed - first off, install the required dependencies:
+Install the required dependencies:
 
     $ npm install
 
 To start up the application:
 
     $ npm run develop
+
+To start webdriver
+    
+    $ node_modules\.bin\webdriver-manager start
+
+To run the tests
+
+    $ node_modules\.bin\wdio wdio.conf.js
+
+(if running windows, add .cmd to the end of wdio and webdriver-manager)
